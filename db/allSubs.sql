@@ -1,0 +1,1 @@
+select * from reddit_subs; 
