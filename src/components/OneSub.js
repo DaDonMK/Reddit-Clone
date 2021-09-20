@@ -14,7 +14,7 @@ const OneSub = (props) => {
             console.log(res.data)
         })    
 
-    }, [])
+    }, [props.match.params.id])
 
     let subreddit_mapped = sub.map((element, i) => {
         return(
